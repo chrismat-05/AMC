@@ -1,19 +1,15 @@
+Entities
+
 1. Clients
-Attributes:
 Client_ID (Primary Key)
 Company_Name
-Contact_Person
 Email
 Phone
-Address
 Billing_Information
-Assigned_Sales_Team_ID (Foreign Key)
   
 2. Contracts
-Attributes:
 Contract_ID (Primary Key)
 Client_ID (Foreign Key)
-Contract_Terms
 Contract_Duration
 Scope_of_Services
 Pricing
@@ -23,7 +19,6 @@ Status (Active, Expired, Renewed)
 Renewal_Date
   
 3. Service Requests
-Attributes:
 Request_ID (Primary Key)
 Client_ID (Foreign Key)
 Contract_ID (Foreign Key)
@@ -33,7 +28,6 @@ Status (Open, In Progress, Closed)
 Assigned_To_Service_Personnel (Foreign Key)
   
 4. Tickets
-Attributes:
 Ticket_ID (Primary Key)
 Request_ID (Foreign Key)
 Created_Date
@@ -42,27 +36,21 @@ Status (Open, Closed, Pending)
 Assigned_To_Service_Personnel (Foreign Key)
   
 5. Users (Staff)
-Attributes:
 User_ID (Primary Key)
 Name
 Role
 Email
 Phone
-Assigned_Client_ID (Foreign Key) - (Only for sales/management team members)
-  
-6. Notifications/Reminders
-Attributes:
-Notification_ID (Primary Key)
+
+
+6. Feedback/Suggestions
+Feedback_ID (Primary Key)
 Client_ID (Foreign Key)
-Contract_ID (Foreign Key)
-Notification_Type (e.g., Expiration, Renewal, Service Appointment)
-Message
-Date_Sent
-Reminder_Date
-Status (Sent, Pending, Failed)
+Rating (1–5)
+Comments
+Submission_Date
   
 7. Assets
-Attributes:
 Asset_ID (Primary Key)
 Asset_Type
 Serial_Number
@@ -70,25 +58,16 @@ Purchase_Date
 Warranty_End_Date
 Contract_ID (Foreign Key)
 Maintenance_Schedule
-Service_History
-  
-8. Sales/Management Teams
-Attributes:
-Team_ID (Primary Key)
-Team_Name
-Team_Members (Foreign Key to Users)
+
   
 9. Reports
-Attributes:
 Report_ID (Primary Key)
 Report_Type (Contract Status, Payments, Renewals, etc.)
 Generated_Date
-Generated_By (Foreign Key to Users)
 Report_Data
 Client_ID (Foreign Key, if specific client report)
   
 10. Payments
-Attributes:
 Payment_ID (Primary Key)
 Contract_ID (Foreign Key)
 Amount
@@ -101,8 +80,9 @@ Relationships:
 Client ↔ Contracts: One client can have multiple contracts.
 Contract ↔ Service Requests: One contract can have multiple service requests.
 Service Request ↔ Tickets: A service request can generate multiple tickets.
-Client ↔ Notifications: Clients can receive multiple notifications.
+Client ↔ Feedback: A client can submit multiple feedback entries.
+Service Request ↔ Feedback: Feedback can be tied to specific service requests.
+Contract ↔ Feedback: Feedback can reference a specific contract for more detailed insights.
 Contract ↔ Assets: Multiple assets can be linked to a single contract.
 Contract ↔ Payments: Each contract can have multiple payments.
 User ↔ Service Requests/Tickets: A service person can be assigned to handle multiple service requests or tickets.
-User ↔ Teams: Users belong to specific sales/management teams.
