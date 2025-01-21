@@ -1,0 +1,47 @@
+Modules
+
+
+Homepage
+Welcome
+Dashboard
+Key metrics: active contract counts, open tickets count, solved ticket counts
+Request a callback
+Statistics: 29+ Companies 35+Products 112+Staff
+About information
+
+Contract Creation and Management 
+Allows the user to create, view, and manage AMC contracts.
+Provides detailed information such as contract terms, duration, scope of services, pricing, etc.
+Supports attaching relevant documents (e.g., agreements, invoices, terms and conditions).
+Contract status (Active, Expired, Renewed, etc.).
+
+Client Management
+Stores client information such as company name, contact details, address, and billing information.
+Provides a tracking client-specific contract renewals and deadlines.
+
+Service Request and Ticket Management
+Allows clients to log service requests or issues related to an active AMC.
+Tracks tickets from creation to resolution, with updates on progress and completion.
+Provides a dashboard to monitor and manage open/closed tickets.
+Integrates with service personnel to assign tasks and track completion.
+
+Renewal and Contract Expiration Management
+Automatically tracks when contracts are due for renewal.
+Provides a system for clients to renew their contracts online.
+Option to update contract terms during the renewal process (e.g., price adjustments, service updates).
+
+Reports and Analytics
+Generates reports on contract statuses, payments, renewals, and service history.
+Provides insights into contract performance, revenue projections, and customer satisfaction.
+
+Asset Management
+Tracks assets covered under the AMC (e.g., machines, equipment, systems).
+Allows asset registration with details like serial numbers, purchase date, warranty.
+Helps in identifying which assets are covered under which contracts.
+Tracks asset performance and schedules preventative maintenance based on contract terms.
+
+Feedback and Suggestions Module
+Collect feedback from various clients
+Collect suggestions in the same box
+An option to choose between submitting feedback or suggestion.
+Rating and Scoring for Services rendered.
