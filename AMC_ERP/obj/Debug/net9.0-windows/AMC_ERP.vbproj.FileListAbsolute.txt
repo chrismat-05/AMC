@@ -1,0 +1,26 @@
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.Login form.resources
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.AssetManagement.resources
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.ClientManagement.resources
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.ContractManagement.resources
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.Feedback.resources
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.Homepage.resources
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.Navigation_Panel.resources
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.RenewalManagement.resources
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.Reports.resources
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.ServiceRequest.resources
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.vbproj.GenerateResource.cache
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.AssemblyInfoInputs.cache
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.AssemblyInfo.vb
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.vbproj.CoreCompileInputs.cache
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\bin\Debug\net9.0-windows\AMC_ERP.exe
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\bin\Debug\net9.0-windows\AMC_ERP.deps.json
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\bin\Debug\net9.0-windows\AMC_ERP.runtimeconfig.json
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\bin\Debug\net9.0-windows\AMC_ERP.dll
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\bin\Debug\net9.0-windows\AMC_ERP.pdb
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.dll
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\refint\AMC_ERP.dll
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.pdb
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.genruntimeconfig.cache
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\ref\AMC_ERP.dll
+C:\Users\chris\Documents\AMC_ERP\AMC_ERP\obj\Debug\net9.0-windows\AMC_ERP.Loginform.resources

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="BaseForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="My Project\AssetManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="My Project\ClientManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="My Project\ContractManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="My Project\Feedback.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="My Project\Homepage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="My Project\Loginform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="My Project\RenewalManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="My Project\Reports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="My Project\ServiceRequest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NavigationPanel.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Registration.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
