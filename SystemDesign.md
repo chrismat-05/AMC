@@ -102,3 +102,10 @@ This level breaks down the single process from Level 0 into major sub-processes 
 - There are also flows between the User data store and Client Management and Contract Management (implied by the overall system flow).
 
 ---
+## Contact
+
+For more information or questions regarding the System Design, please contact:
+
+- **Chris Mathew Aje**  
+  Email: [chrismaje63@gmail.com](mailto:chrismaje63@gmail.com)  
+  Website: [contact.thecma.xyz](https://contact.thecma.xyz)

@@ -100,3 +100,10 @@ Records service requests.
 | IssueDescription | nvarchar(MAX) | Yes | Description of the issue or request. |
 | DateLogged | date | No | Date the service request was logged. |
 
+## Contact
+
+For more information or questions regarding the database schema, please contact:
+
+- **Chris Mathew Aje**  
+  Email: [chrismaje63@gmail.com](mailto:chrismaje63@gmail.com)  
+  Website: [contact.thecma.xyz](https://contact.thecma.xyz)

@@ -52,5 +52,5 @@
 ## Reports
 ![Reports Table](docs/db7.png)
 
-## [ServiceRequests]
+## ServiceRequests
 ![ServiceRequests Table](docs/db8.png)
