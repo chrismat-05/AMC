@@ -103,6 +103,7 @@ Partial Class Feedback
         ' 
         PictureBox1.BackgroundImage = My.Resources.Resources.Exit_icon
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
+        PictureBox1.Cursor = Cursors.Hand
         PictureBox1.Location = New Point(1195, 12)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(50, 50)
@@ -127,6 +128,7 @@ Partial Class Feedback
         DoubleBuffered = True
         Margin = New Padding(5)
         Name = "Feedback"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Feedback"
         CType(numRating, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()

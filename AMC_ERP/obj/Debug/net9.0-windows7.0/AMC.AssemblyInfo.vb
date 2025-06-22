@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("AMC"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e24f7fc344491643f8fdeed943fd8ed9a6d057a"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("AMC"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("AMC"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

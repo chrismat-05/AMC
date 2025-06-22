@@ -123,6 +123,7 @@ Partial Class ServiceRequest
         ' 
         PictureBox1.BackgroundImage = My.Resources.Resources.Exit_icon
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
+        PictureBox1.Cursor = Cursors.Hand
         PictureBox1.Location = New Point(1195, 12)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(50, 50)
@@ -131,7 +132,7 @@ Partial Class ServiceRequest
         ' 
         ' ServiceRequest
         ' 
-        AutoScaleDimensions = New SizeF(11.0F, 23.0F)
+        AutoScaleDimensions = New SizeF(11F, 23F)
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImage = My.Resources.Resources.Form_backgrounds
         BackgroundImageLayout = ImageLayout.Stretch
@@ -149,6 +150,7 @@ Partial Class ServiceRequest
         DoubleBuffered = True
         Margin = New Padding(5)
         Name = "ServiceRequest"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "ServiceRequest"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
