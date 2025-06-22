@@ -27,9 +27,9 @@ Partial Class Registration
         PictureBox1 = New PictureBox()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
-        '
+        ' 
         ' Label2
-        '
+        ' 
         Label2.AutoSize = True
         Label2.ForeColor = Color.Black
         Label2.Location = New Point(695, 221)
@@ -37,9 +37,9 @@ Partial Class Registration
         Label2.Size = New Size(98, 23)
         Label2.TabIndex = 1
         Label2.Text = "Username"
-        '
+        ' 
         ' Label3
-        '
+        ' 
         Label3.AutoSize = True
         Label3.ForeColor = Color.Black
         Label3.Location = New Point(695, 312)
@@ -47,41 +47,41 @@ Partial Class Registration
         Label3.Size = New Size(95, 23)
         Label3.TabIndex = 2
         Label3.Text = "Password"
-        '
+        ' 
         ' txtUsername
-        '
+        ' 
         txtUsername.BackColor = SystemColors.InactiveCaption
-        txtUsername.ForeColor = Color.Black
         txtUsername.BorderStyle = BorderStyle.FixedSingle
         txtUsername.Cursor = Cursors.Hand
         txtUsername.Font = New Font("Georgia", 14.25F, FontStyle.Italic)
+        txtUsername.ForeColor = Color.Black
         txtUsername.Location = New Point(899, 217)
         txtUsername.Name = "txtUsername"
         txtUsername.Size = New Size(240, 29)
         txtUsername.TabIndex = 3
-        '
+        ' 
         ' txtPassword
-        '
+        ' 
         txtPassword.BackColor = SystemColors.InactiveCaption
-        txtPassword.ForeColor = Color.Black
         txtPassword.BorderStyle = BorderStyle.FixedSingle
+        txtPassword.ForeColor = Color.Black
         txtPassword.Location = New Point(899, 308)
         txtPassword.Name = "txtPassword"
         txtPassword.Size = New Size(239, 29)
         txtPassword.TabIndex = 4
-        '
+        ' 
         ' txtConfirmPassword
-        '
+        ' 
         txtConfirmPassword.BackColor = SystemColors.InactiveCaption
-        txtConfirmPassword.ForeColor = Color.Black
         txtConfirmPassword.BorderStyle = BorderStyle.FixedSingle
+        txtConfirmPassword.ForeColor = Color.Black
         txtConfirmPassword.Location = New Point(899, 400)
         txtConfirmPassword.Name = "txtConfirmPassword"
         txtConfirmPassword.Size = New Size(239, 29)
         txtConfirmPassword.TabIndex = 6
-        '
+        ' 
         ' Label4
-        '
+        ' 
         Label4.AutoSize = True
         Label4.ForeColor = Color.Black
         Label4.Location = New Point(695, 404)
@@ -89,33 +89,34 @@ Partial Class Registration
         Label4.Size = New Size(171, 23)
         Label4.TabIndex = 5
         Label4.Text = "Confirm Password"
-        '
+        ' 
         ' btnRegister
-        '
+        ' 
         btnRegister.BackColor = Color.Black
-        btnRegister.ForeColor = Color.White
-        btnRegister.FlatAppearance.BorderColor = Color.Red
-        btnRegister.FlatAppearance.BorderSize = 1
-        btnRegister.FlatStyle = FlatStyle.Flat
         btnRegister.Cursor = Cursors.Hand
+        btnRegister.FlatAppearance.BorderColor = Color.Red
+        btnRegister.FlatStyle = FlatStyle.Flat
+        btnRegister.ForeColor = Color.White
         btnRegister.Location = New Point(828, 481)
         btnRegister.Name = "btnRegister"
         btnRegister.Size = New Size(179, 60)
         btnRegister.TabIndex = 7
         btnRegister.Text = "Register"
         btnRegister.UseVisualStyleBackColor = False
-        '
+        ' 
         ' PictureBox1
-        '
+        ' 
         PictureBox1.BackgroundImage = My.Resources.Resources.Exit_icon
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
+        PictureBox1.Cursor = Cursors.Hand
         PictureBox1.Location = New Point(1195, 12)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(50, 50)
+        PictureBox1.TabIndex = 0
         PictureBox1.TabStop = False
-        '
+        ' 
         ' Registration
-        '
+        ' 
         BackColor = Color.White
         BackgroundImage = My.Resources.Resources.Registration_form_bg
         BackgroundImageLayout = ImageLayout.Stretch
@@ -128,8 +129,10 @@ Partial Class Registration
         Controls.Add(txtUsername)
         Controls.Add(Label3)
         Controls.Add(Label2)
-        Font = New Font("Georgia", 14.0!, FontStyle.Italic)
+        DoubleBuffered = True
+        Font = New Font("Georgia", 14F, FontStyle.Italic)
         Name = "Registration"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Registration"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)

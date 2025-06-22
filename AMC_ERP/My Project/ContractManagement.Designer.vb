@@ -177,6 +177,7 @@ Partial Class ContractManagement
         ' 
         PictureBox1.BackgroundImage = My.Resources.Resources.Exit_icon
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
+        PictureBox1.Cursor = Cursors.Hand
         PictureBox1.Location = New Point(1195, 12)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(50, 50)
@@ -208,6 +209,7 @@ Partial Class ContractManagement
         DoubleBuffered = True
         Margin = New Padding(5)
         Name = "ContractManagement"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "ContractManagement"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)

@@ -30,6 +30,7 @@ Partial Class HomePage
         ' 
         PictureBox1.BackgroundImage = My.Resources.Resources.Exit_icon
         PictureBox1.BackgroundImageLayout = ImageLayout.Zoom
+        PictureBox1.Cursor = Cursors.Hand
         PictureBox1.Location = New Point(1323, 12)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(50, 50)
@@ -78,6 +79,7 @@ Partial Class HomePage
         DoubleBuffered = True
         Margin = New Padding(5)
         Name = "HomePage"
+        StartPosition = FormStartPosition.CenterScreen
         Text = "Homepage"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
